@@ -30,8 +30,8 @@ Please download the [DIS-5K dataset](https://github.com/xuebinqin/DIS) first and
 ```
 IS-Net
 └──DIS5K
-	└── DIS-TE1
-	├── DIS-TE2
+    └── DIS-TE1
+    ├── DIS-TE2
     ├── DIS-TE3
     ├── DIS-TE4
     ├── DIS-TR
