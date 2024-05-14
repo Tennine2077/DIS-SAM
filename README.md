@@ -17,7 +17,7 @@ This is the official pytorch implementation of [DIS-SAM](https://arxiv.org/abs/2
 ## Installation
 
 ```
-conda create -n DISSAM python=3.11
+conda create -n DISSAM python=3.11.4
 conda activate DISSAM
 
 pip install -r requirements.txt
