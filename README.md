@@ -77,7 +77,19 @@ After the training is complete, you can simply visualize the output of DIS-SAM w
 
 # Compare
 
+As shown , DIS-SAM is capable of segmenting out more details. Note that IS-Net does not have prompt box or mask input, whereas  DIS-SAM, HQ-SAM, and SAM take the original image and prompt box as inputs. 
+
 ![compare](pic/compare.jpg)
+
+Performance comparisons of DIS-SAM with SAM, HQ-SAM and IS-Net. 
+
+![compare_B](pic/compare_B.png)
+
+# Zero-Shot
+
+Zero-shot generalization performance comparisons of DIS-SAM with SAM and HQ-SAM. Regarding user prompt boxes, they are derived from GT masks. These metrics align with those of IS-Net and HQ-SAM. 
+
+![compare_C](pic/compare_C.png)
 
 ## BibTeX
 
