@@ -1,6 +1,6 @@
 # DIS-SAM
 
-This is the official pytorch implementation of [DIS-SAM](https://arxiv.org/abs/2401.00248).
+This is the official PyTorch implementation of [DIS-SAM](https://arxiv.org/abs/2401.00248).
 
 > # Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation
 >
@@ -10,7 +10,7 @@ This is the official pytorch implementation of [DIS-SAM](https://arxiv.org/abs/2
 
 # Abstract
 
-​	The Segment Anything Model (SAM) represents a significant breakthrough into foundation models for computer vision, providing a large-scale image segmentation model. However, despite SAM's zero-shot performance, its segmentation masks lack fine-grained details, particularly in accurately delineating object boundaries. We have high expectations regarding whether SAM, as a foundation model, can be improved towards highly accurate object segmentation, which is known as dichotomous image segmentation (DIS). To address this issue, we propose DIS-SAM, which advances SAM towards DIS with extremely accurate details. DIS-SAM is a framework specifically tailored for highly accurate segmentation, maintaining SAM's promptable design. DIS-SAM employs a two-stage approach, integrating SAM with a modified IS-Net dedicated to DIS. Despite its simplicity, DIS-SAM demonstrates significantly enhanced segmentation accuracy compared to SAM and HQ-SAM.
+The Segment Anything Model (SAM) represents a significant breakthrough into foundation models for computer vision, providing a large-scale image segmentation model. However, despite SAM's zero-shot performance, its segmentation masks lack fine-grained details, particularly in accurately delineating object boundaries. We have high expectations regarding whether SAM, as a foundation model, can be improved towards highly accurate object segmentation, which is known as dichotomous image segmentation (DIS). To address this issue, we propose DIS-SAM, which advances SAM towards DIS with extremely accurate details. DIS-SAM is a framework specifically tailored for highly accurate segmentation, maintaining SAM's promptable design. DIS-SAM employs a two-stage approach, integrating SAM with a modified IS-Net dedicated to DIS. Despite its simplicity, DIS-SAM demonstrates significantly enhanced segmentation accuracy compared to SAM and HQ-SAM.
 
 ![DIS-SAM](pic/DIS-SAM.jpg)
 
@@ -41,7 +41,7 @@ IS-Net
     	└──mask #SAM MASK
 ```
 
-Download [SAM's weights](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)  into sam/notebooks and run automatic_mask_generator_example.ipynb to generate SAM masks.
+Download [SAM's weights](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)  into `sam/notebooks` and run `automatic_mask_generator_example.ipynb` to generate SAM masks.
 
 # Training
 
@@ -73,7 +73,7 @@ python soc_metrics.py
 
 # Demo
 
-After the training is complete, you can simply visualize the output of DIS-SAM with Demo.ipynb.
+After the training is complete, you can simply visualize the output of DIS-SAM with `Demo.ipynb`.
 
 # Compare
 
