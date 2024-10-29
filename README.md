@@ -56,21 +56,12 @@ Download [SAM's weights](https://dl.fbaipublicfiles.com/segment_anything/sam_vit
 python train_valid_inference_main.py
 ```
 
-# metric
+# Test
 
-(a) Set the path of your to-be-inferenced `valid_datasets`, and set the `hypar["mode"]` to `"valid"`. Run
+Set the path of your to-be-inferenced `valid_datasets`, and set the `hypar["mode"]` to `"valid"`. Run
 
 ```
 python train_valid_inference_main.py
-```
-
-(b) Open `metrics/soc_metrics.py`, set the path of your to-be-inferenced `gt_roots` and `pred_roots`
-(c) Set the `n_jobs` to what you choose, e.g., `8`
-(d) Set the `method` to your method name.
-(e) Run
-
-```
-python soc_metrics.py
 ```
 
 # Demo
