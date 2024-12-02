@@ -74,16 +74,6 @@ As shown , DIS-SAM is capable of segmenting out more details. Note that IS-Net d
 
 ![compare](pic/compare.jpg)
 
-Performance comparisons of DIS-SAM with SAM, HQ-SAM and IS-Net. 
-
-![compare_b](pic/compare_b.png)
-
-# Zero-Shot
-
-Zero-shot generalization performance comparisons of DIS-SAM with SAM and HQ-SAM. Regarding user prompt boxes, they are derived from GT masks. These metrics align with those of IS-Net and HQ-SAM. 
-
-![zero_shot](pic/zero_shot.png)
-
 ## BibTeX
 
 Please consider to cite DIS-SAM if it helps your research.
