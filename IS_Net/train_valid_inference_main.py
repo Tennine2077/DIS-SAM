@@ -19,18 +19,6 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 def get_gt_encoder(train_dataloaders, train_datasets, valid_dataloaders, valid_datasets, hypar, train_dataloaders_val, train_datasets_val): #model_path, model_save_fre, max_ite=1000000):
 
-    # train_dataloaders, train_datasets = create_dataloaders(train_nm_im_gt_list,
-    #                                                      cache_size = hypar["cache_size"],
-    #                                                      cache_boost = hypar["cache_boost_train"],
-    #                                                      my_transforms = [
-    #                                                                      GOSRandomHFlip(),
-    #                                                                      # GOSResize(hypar["input_size"]),
-    #                                                                      # GOSRandomCrop(hypar["crop_size"]),
-    #                                                                       GOSNormalize([0.5,0.5,0.5],[1.0,1.0,1.0]),
-    #                                                                       ],
-    #                                                      batch_size = hypar["batch_size_train"],
-    #                                                      shuffle = True)
-    # scaler = GradScaler()
     torch.manual_seed(hypar["seed"])
     if torch.cuda.is_available():
         torch.cuda.manual_seed(hypar["seed"])
