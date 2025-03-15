@@ -67,6 +67,7 @@ python train_valid_inference_main.py
 # Demo
 
 After the training is complete, you can simply visualize the output of DIS-SAM with `Demo.ipynb`.
+If you need the checkpoints and visual results on DIS-5K, click [HERE](https://drive.google.com/drive/folders/1fE_DCGKU3WA-HmZnqRzaazHe44Lx9RP2?usp=sharing).
 
 # Compare
 
