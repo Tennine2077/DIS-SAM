@@ -4,7 +4,7 @@ This is the official PyTorch implementation of [DIS-SAM](https://arxiv.org/abs/2
 
 > # Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation
 >
-> Xianjie Liu, Keren Fu, Qijun Zhao
+> Xianjie Liu, Keren Fu, Yao Jiang, Qijun Zhao
 >
 > arXiv:2401.00248
 
@@ -84,11 +84,14 @@ As shown , DIS-SAM is capable of segmenting out more details. Note that IS-Net d
 Please consider to cite DIS-SAM if it helps your research.
 
 ```
-@article{liu2023promoting,
-  title={Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation},
-  author={Liu, Xianjie and Fu, Keren and Zhao, Qijun},
-  journal={arXiv preprint arXiv:2401.00248},
-  year={2023}
+@misc{liu2025DIS-SAM,
+      title={Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation}, 
+      author={Xianjie Liu, Keren Fu, Yao Jiang and Qijun Zhao},
+      year={2025},
+      eprint={2401.00248},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2401.00248}, 
 }
 ```
 
