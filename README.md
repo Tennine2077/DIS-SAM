@@ -1,4 +1,4 @@
-# DIS-SAM
+# DIS-SAM (ICME 2025)
 
 This is the official PyTorch implementation of [DIS-SAM](https://arxiv.org/abs/2401.00248).
 
