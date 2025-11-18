@@ -1,12 +1,13 @@
 # DIS-SAM (ICME 2025)
 
-This is the official PyTorch implementation of [DIS-SAM](https://arxiv.org/abs/2401.00248).
+This is the official PyTorch implementation of [DIS-SAM](https://ieeexplore.ieee.org/document/11208915).
 
 > # Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation
 >
 > Xianjie Liu, Keren Fu, Yao Jiang, Qijun Zhao
 >
-> arXiv:2401.00248
+> 2025 IEEE International Conference on Multimedia and Expo (ICME)
+> doi={10.1109/ICME59968.2025.11208915}
 
 🔥If you are interested in Dichotomous Image Segmentation (DIS), we highly recommend checking out our additional project [Awesome Dichotomous Image Segmentation](https://github.com/Tennine2077/Awesome-Dichotomous-Image-Segmentation/tree/main). This project compiles all significant research and resources related to DIS, providing comprehensive references and inspiration for your research and practice. We hope this resource list will help you better understand and apply DIS techniques, driving more accurate image segmentation tasks.
 
@@ -84,14 +85,16 @@ As shown , DIS-SAM is capable of segmenting out more details. Note that IS-Net d
 Please consider to cite DIS-SAM if it helps your research.
 
 ```
-@misc{liu2025DIS-SAM,
-      title={Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation}, 
-      author={Xianjie Liu, Keren Fu, Yao Jiang and Qijun Zhao},
-      year={2025},
-      eprint={2401.00248},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2401.00248}, 
-}
+@INPROCEEDINGS{11208915,
+  author={Liu, Xianjie and Fu, Keren and Jiang, Yao and Zhao, Qijun},
+  booktitle={2025 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  title={Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Image segmentation;Computer vision;Accuracy;Codes;Foundation models;Annotations;Computational modeling;Redundancy;Object segmentation;Streaming media;Foundation model;segment anything model;highly accurate segmentation;dichotomous image segmentation},
+  doi={10.1109/ICME59968.2025.11208915}}
 ```
+
 
